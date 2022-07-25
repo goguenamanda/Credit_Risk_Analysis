@@ -58,24 +58,24 @@ For this challenge, I built, trained, and analyzed different models that used un
 ### Newer Models
 #### BalancedRandomForestClassifier
 ![Screen Shot 2022-07-24 at 11 49 37 PM](https://user-images.githubusercontent.com/101145419/180707498-4c89a3f2-5537-4a3a-90c5-c3b26378fea0.png)
-- the balanced accuracy score was 53%
+- the balanced accuracy score was 78%
 - high risk
-  - precision rate: 1%
-  - recall rate: 53%
+  - precision rate: 3%
+  - recall rate: 68%
 - low risk
-  - precision rate: 99%
-  - recall rate: 53%
+  - precision rate: 100%
+  - recall rate: 89%
 ![Screen Shot 2022-07-24 at 11 49 41 PM](https://user-images.githubusercontent.com/101145419/180707514-6e643b05-4a14-465d-ba4a-d63539948a1f.png)
 
 #### EasyEnsembleClassifier
 ![Screen Shot 2022-07-24 at 11 49 47 PM](https://user-images.githubusercontent.com/101145419/180707526-87e6d8e2-f2a4-4ada-a1b1-cc570cb5aa20.png)
-- the balanced accuracy score was 53%
+- the balanced accuracy score was 93%
 - high risk
-  - precision rate: 1%
-  - recall rate: 53%
+  - precision rate: 7%
+  - recall rate: 91%
 - low risk
-  - precision rate: 99%
-  - recall rate: 53%
+  - precision rate: 100%
+  - recall rate: 94%
 ![Screen Shot 2022-07-24 at 11 49 52 PM](https://user-images.githubusercontent.com/101145419/180707536-46d4b6bf-8782-4acb-b2c2-0d817c311d4d.png)
 
 ## Summary
