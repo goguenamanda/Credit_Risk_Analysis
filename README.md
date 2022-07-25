@@ -57,8 +57,26 @@ For this challenge, I built, trained, and analyzed different models that used un
 
 ### Newer Models
 #### BalancedRandomForestClassifier
+![Screen Shot 2022-07-24 at 11 49 37 PM](https://user-images.githubusercontent.com/101145419/180707498-4c89a3f2-5537-4a3a-90c5-c3b26378fea0.png)
+- the balanced accuracy score was 53%
+- high risk
+  - precision rate: 1%
+  - recall rate: 53%
+- low risk
+  - precision rate: 99%
+  - recall rate: 53%
+![Screen Shot 2022-07-24 at 11 49 41 PM](https://user-images.githubusercontent.com/101145419/180707514-6e643b05-4a14-465d-ba4a-d63539948a1f.png)
 
 #### EasyEnsembleClassifier
+![Screen Shot 2022-07-24 at 11 49 47 PM](https://user-images.githubusercontent.com/101145419/180707526-87e6d8e2-f2a4-4ada-a1b1-cc570cb5aa20.png)
+- the balanced accuracy score was 53%
+- high risk
+  - precision rate: 1%
+  - recall rate: 53%
+- low risk
+  - precision rate: 99%
+  - recall rate: 53%
+![Screen Shot 2022-07-24 at 11 49 52 PM](https://user-images.githubusercontent.com/101145419/180707536-46d4b6bf-8782-4acb-b2c2-0d817c311d4d.png)
 
 ## Summary
-Unfortunately, I was unable to run the BalanceRandomForestClassifier and EasyEnsembleClassifier models due to Attribute Errors that nobody knew how to fix. Instead, my analysis and recommendation is solely based on these 4 models. Overall, all of the models were not able to produce desirable balanced accuracy scores. Based on these models, I would not recommend using any of them. None of them exceed an accuracy score higher than 64%, which is a relatively low percentage for relying on machine learning models. 
+Overall, majority of the models were not able to produce desirable balanced accuracy scores. However, both of the Newer Models performed well. Although both had respectable balanced accuracy scores, only the EasyEnsembleClassifier exceeded 90%. Based on this information, I would only recommend using the EasyEnsembleClassifier. 
